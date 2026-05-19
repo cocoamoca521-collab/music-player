@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <h1 class="app-title">My Music</h1>
+    </header>
+
+    <main class="player-container">
+      <div class="now-playing">
+        <div class="cover-art">
+          <div class="cover-placeholder" id="coverArt">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="12" r="10"/>
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M12 2a10 10 0 0 1 0 20"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="track-info">
+          <h2 class="track-title" id="trackTitle">曲を選択してください</h2>
+          <p class="track-artist" id="trackArtist">&nbsp;</p>
+          <p class="track-album" id="trackAlbum">&nbsp;</p>
+        </div>
+
+        <div class="progress-section">
+          <span class="time" id="currentTime">0:00</span>
+          <div class="progress-bar" id="progressBar">
+            <div class="progress-fill" id="progressFill"></div>
+            <div class="progress-handle" id="progressHandle"></div>
+          </div>
+          <span class="time" id="totalTime">0:00</span>
+        </div>
+
+        <div class="controls">
+          <button class="control-btn small" id="shuffleBtn" title="シャッフル">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/>
+              <polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/>
+              <line x1="4" y1="4" x2="9" y2="9"/>
+            </svg>
+          </button>
+          <button class="control-btn" id="prevBtn" title="前の曲">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
+            </svg>
+          </button>
+          <button class="control-btn play-btn" id="playBtn" title="再生">
+            <svg viewBox="0 0 24 24" fill="currentColor" id="playIcon">
+              <path d="M8 5v14l11-7z"/>
+            </svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" id="pauseIcon" style="display:none">
+              <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+            </svg>
+          </button>
+          <button class="control-btn" id="nextBtn" title="次の曲">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
+            </svg>
+          </button>
+          <button class="control-btn small" id="repeatBtn" title="リピート">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+              <polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+            </svg>
+            <span class="repeat-badge" id="repeatBadge"></span>
+          </button>
+        </div>
+
+        <div class="volume-section">
+          <button class="control-btn small" id="volumeBtn" title="音量">
+            <svg viewBox="0 0 24 24" fill="currentColor" id="volumeIcon">
+              <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+            </svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" id="muteIcon" style="display:none">
+              <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+            </svg>
+          </button>
+          <div class="volume-bar" id="volumeBar">
+            <div class="volume-fill" id="volumeFill"></div>
+            <div class="volume-handle" id="volumeHandle"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="playlist">
+        <h3 class="playlist-title">Playlist</h3>
+        <ul class="track-list" id="trackList"></ul>
+      </div>
+    </main>
+  </div>
+
+  <audio id="audio"></audio>
+  <script src="app.js"></script>
+</body>
+</html>

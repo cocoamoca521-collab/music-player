@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "夜明けのメロディー",
+    "artist": "Your Name",
+    "album": "First Album",
+    "duration": "3:24",
+    "src": "https://example.com/song1.mp3",
+    "cover": ""
+  },
+  {
+    "id": 2,
+    "title": "星降る夜に",
+    "artist": "Your Name",
+    "album": "First Album",
+    "duration": "4:02",
+    "src": "https://example.com/song2.mp3",
+    "cover": ""
+  },
+  {
+    "id": 3,
+    "title": "風のささやき",
+    "artist": "Your Name",
+    "album": "Second Album",
+    "duration": "3:45",
+    "src": "https://example.com/song3.mp3",
+    "cover": ""
+  },
+  {
+    "id": 4,
+    "title": "桜の記憶",
+    "artist": "Your Name",
+    "album": "Second Album",
+    "duration": "2:58",
+    "src": "https://example.com/song4.mp3",
+    "cover": ""
+  },
+  {
+    "id": 5,
+    "title": "月光ドライブ",
+    "artist": "Your Name",
+    "album": "Third Album",
+    "duration": "3:33",
+    "src": "https://example.com/song5.mp3",
+    "cover": ""
+  }
+]
