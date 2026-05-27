@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "title": "夜明けのメロディー",
-    "artist": "Your Name",
-    "album": "First Album",
-    "duration": "3:24",
-    "src": "https://example.com/song1.mp3",
-    "cover": ""
+    "title": "All I Am",
+    "artist": "NOAH",
+    "album": "NOAH CharacterSong",
+    "duration": "3:33",
+    "src": "https://suno.com/s/nfMPeusroxrZvtlb",
+    "cover": "images/all.jpeg"
   },
   {
     "id": 2,
-    "title": "星降る夜に",
-    "artist": "Your Name",
-    "album": "First Album",
-    "duration": "4:02",
-    "src": "https://example.com/song2.mp3",
-    "cover": ""
+    "title": "Stay with me",
+    "artist": "NOAH",
+    "album": "NOAH CharacterSong",
+    "duration": "3:22",
+    "src": "https://suno.com/s/4dG2S7OVZgiTvTDY",
+    "cover": "images/stay.jpeg"
   },
   {
     "id": 3,
-    "title": "風のささやき",
-    "artist": "Your Name",
-    "album": "Second Album",
-    "duration": "3:45",
-    "src": "https://example.com/song3.mp3",
-    "cover": ""
+    "title": "Unlock",
+    "artist": "NOAH",
+    "album": "NOAH CharacterSong",
+    "duration": "2:49",
+    "src": "https://suno.com/s/0hOWHctWvAnlTe6k",
+    "cover": "images/un.jpeg"
   },
   {
     "id": 4,
-    "title": "桜の記憶",
-    "artist": "Your Name",
-    "album": "Second Album",
-    "duration": "2:58",
-    "src": "https://example.com/song4.mp3",
-    "cover": ""
+    "title": "Never Enough",
+    "artist": "NOAH",
+    "album": "NOAH CharacterSong",
+    "duration": "3:37",
+    "src": "https://suno.com/s/Kf7uZgP0Hdz2O1Im",
+    "cover": "images/never.jpeg"
   },
   {
     "id": 5,
-    "title": "月光ドライブ",
-    "artist": "Your Name",
-    "album": "Third Album",
-    "duration": "3:33",
-    "src": "https://example.com/song5.mp3",
-    "cover": ""
+    "title": "First Time, Every Time",
+    "artist": "NOAH",
+    "album": "NOAH CharacterSong",
+    "duration": "3:57",
+    "src": "https://suno.com/s/pwCVL6Qv6zb8Zl7D",
+    "cover": "images/first.jpeg"
   }
 ]
