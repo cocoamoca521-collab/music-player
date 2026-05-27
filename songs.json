@@ -5,7 +5,7 @@
     "artist": "NOAH",
     "album": "NOAH CharacterSong",
     "duration": "3:33",
-    "src": "https://suno.com/s/nfMPeusroxrZvtlb",
+    "src": "music/All I Am.mp3",
     "cover": "images/all.jpeg"
   },
   {
@@ -14,7 +14,7 @@
     "artist": "NOAH",
     "album": "NOAH CharacterSong",
     "duration": "3:22",
-    "src": "https://suno.com/s/4dG2S7OVZgiTvTDY",
+    "src": "music/Stay with me.mp3",
     "cover": "images/stay.jpeg"
   },
   {
@@ -23,7 +23,7 @@
     "artist": "NOAH",
     "album": "NOAH CharacterSong",
     "duration": "2:49",
-    "src": "https://suno.com/s/0hOWHctWvAnlTe6k",
+    "src": "music/Unlock.mp3",
     "cover": "images/un.jpeg"
   },
   {
@@ -32,7 +32,7 @@
     "artist": "NOAH",
     "album": "NOAH CharacterSong",
     "duration": "3:37",
-    "src": "https://suno.com/s/Kf7uZgP0Hdz2O1Im",
+    "src": "music/Never Enough.mp3",
     "cover": "images/never.jpeg"
   },
   {
@@ -41,7 +41,7 @@
     "artist": "NOAH",
     "album": "NOAH CharacterSong",
     "duration": "3:57",
-    "src": "https://suno.com/s/pwCVL6Qv6zb8Zl7D",
+    "src": "music/First Time, Every Time.mp3",
     "cover": "images/first.jpeg"
   }
 ]
